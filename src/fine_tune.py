@@ -120,7 +120,7 @@ def main():
         metric_for_best_model="accuracy",
         logging_steps=10,
         seed=SEED,
-        report_to="none",  # set to "tensorboard" if you want TensorBoard
+        report_to="none",  
     )
 
     # Trainer
