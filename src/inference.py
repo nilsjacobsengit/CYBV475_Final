@@ -118,12 +118,12 @@ def main():
     clf = ReviewClassifier()
 
     if args.review:
-        # ── Single review from CLI arg ─────────────────────
+        # Single review from CLI arg
         result = clf.predict(args.review)
         print_result(args.review, result)
 
     elif args.file:
-        # ── Batch from file ────────────────────────────────
+        # Batch from file
         with open(args.file) as f:
             reviews = [line.strip() for line in f if line.strip()]
         results = clf.predict_batch(reviews)
