@@ -1,6 +1,6 @@
 # Fake Review Detector
 
-Fine-tuning DistilBERT to classify product and restaurant reviews as real or fake — a defensive approach to the cyber deception tactic of fake review manipulation.
+Fine-tuning DistilBERT to classify product and restaurant reviews as real or fake; a defensive approach to the cyber deception tactic of fake review manipulation.
 
 ## Files
 - `dataset/reviews.csv` — 174 labeled reviews (real/fake), fake ones generated using Claude AI
